@@ -1,0 +1,353 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.0">
+  <description>Tim Spann
+dec 2016</description>
+  <groupId>277b083b-0159-1000-729b-c3cad6b0e7ff</groupId>
+  <name>SonicPi</name>
+  <snippet>
+    <processGroups>
+      <id>2789aba2-0159-1000-0000-000000000000</id>
+      <parentGroupId>277b083b-0159-1000-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>0.0</y>
+      </position>
+      <comments></comments>
+      <contents>
+        <connections>
+          <id>01591000-1d2b-177f-0000-000000000000</id>
+          <parentGroupId>2789aba2-0159-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>2789aba2-0159-1000-0000-000000000000</groupId>
+            <id>01591000-0057-177c-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>success</selectedRelationships>
+          <source>
+            <groupId>2789aba2-0159-1000-0000-000000000000</groupId>
+            <id>01591000-f924-177e-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <connections>
+          <id>01591001-f924-177e-0000-000000000000</id>
+          <parentGroupId>2789aba2-0159-1000-0000-000000000000</parentGroupId>
+          <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+          <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+          <destination>
+            <groupId>2789aba2-0159-1000-0000-000000000000</groupId>
+            <id>01591000-cd14-177d-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </destination>
+          <flowFileExpiration>0 sec</flowFileExpiration>
+          <labelIndex>1</labelIndex>
+          <name></name>
+          <selectedRelationships>original</selectedRelationships>
+          <source>
+            <groupId>2789aba2-0159-1000-0000-000000000000</groupId>
+            <id>01591000-0057-177c-0000-000000000000</id>
+            <type>PROCESSOR</type>
+          </source>
+          <zIndex>0</zIndex>
+        </connections>
+        <processors>
+          <id>01591000-0057-177c-0000-000000000000</id>
+          <parentGroupId>2789aba2-0159-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>493.0</x>
+            <y>16.013885498046875</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Command Arguments</key>
+                <value>
+                  <name>Command Arguments</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Command Path</key>
+                <value>
+                  <name>Command Path</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Ignore STDIN</key>
+                <value>
+                  <name>Ignore STDIN</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Working Directory</key>
+                <value>
+                  <name>Working Directory</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Argument Delimiter</key>
+                <value>
+                  <name>Argument Delimiter</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Output Destination Attribute</key>
+                <value>
+                  <name>Output Destination Attribute</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Max Attribute Length</key>
+                <value>
+                  <name>Max Attribute Length</name>
+                </value>
+              </entry>
+            </descriptors>
+            <executionNode>ALL</executionNode>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Command Arguments</key>
+              </entry>
+              <entry>
+                <key>Command Path</key>
+                <value>/Volumes/Transcend/Apps/nifi-1.1.0.2.1.1.0-2/sonic.sh</value>
+              </entry>
+              <entry>
+                <key>Ignore STDIN</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>Working Directory</key>
+              </entry>
+              <entry>
+                <key>Argument Delimiter</key>
+                <value>;</value>
+              </entry>
+              <entry>
+                <key>Output Destination Attribute</key>
+                <value>ranmusic</value>
+              </entry>
+              <entry>
+                <key>Max Attribute Length</key>
+                <value>1024</value>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>ExecuteStreamCommand</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>original</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.ExecuteStreamCommand</type>
+        </processors>
+        <processors>
+          <id>01591000-cd14-177d-0000-000000000000</id>
+          <parentGroupId>2789aba2-0159-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>496.0</x>
+            <y>245.01388549804688</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>Directory</key>
+                <value>
+                  <name>Directory</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Conflict Resolution Strategy</key>
+                <value>
+                  <name>Conflict Resolution Strategy</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Create Missing Directories</key>
+                <value>
+                  <name>Create Missing Directories</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Maximum File Count</key>
+                <value>
+                  <name>Maximum File Count</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Last Modified Time</key>
+                <value>
+                  <name>Last Modified Time</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Permissions</key>
+                <value>
+                  <name>Permissions</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Owner</key>
+                <value>
+                  <name>Owner</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Group</key>
+                <value>
+                  <name>Group</name>
+                </value>
+              </entry>
+            </descriptors>
+            <executionNode>ALL</executionNode>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>Directory</key>
+                <value>/Volumes/Transcend/Apps/nifi-1.1.0.2.1.1.0-2/logs/</value>
+              </entry>
+              <entry>
+                <key>Conflict Resolution Strategy</key>
+                <value>ignore</value>
+              </entry>
+              <entry>
+                <key>Create Missing Directories</key>
+                <value>true</value>
+              </entry>
+              <entry>
+                <key>Maximum File Count</key>
+              </entry>
+              <entry>
+                <key>Last Modified Time</key>
+              </entry>
+              <entry>
+                <key>Permissions</key>
+              </entry>
+              <entry>
+                <key>Owner</key>
+              </entry>
+              <entry>
+                <key>Group</key>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>0 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>PutFile</name>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>failure</name>
+          </relationships>
+          <relationships>
+            <autoTerminate>true</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.PutFile</type>
+        </processors>
+        <processors>
+          <id>01591000-f924-177e-0000-000000000000</id>
+          <parentGroupId>2789aba2-0159-1000-0000-000000000000</parentGroupId>
+          <position>
+            <x>496.0</x>
+            <y>-229.98611450195312</y>
+          </position>
+          <config>
+            <bulletinLevel>WARN</bulletinLevel>
+            <comments></comments>
+            <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+            <descriptors>
+              <entry>
+                <key>File Size</key>
+                <value>
+                  <name>File Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Batch Size</key>
+                <value>
+                  <name>Batch Size</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Data Format</key>
+                <value>
+                  <name>Data Format</name>
+                </value>
+              </entry>
+              <entry>
+                <key>Unique FlowFiles</key>
+                <value>
+                  <name>Unique FlowFiles</name>
+                </value>
+              </entry>
+              <entry>
+                <key>generate-ff-custom-text</key>
+                <value>
+                  <name>generate-ff-custom-text</name>
+                </value>
+              </entry>
+            </descriptors>
+            <executionNode>ALL</executionNode>
+            <lossTolerant>false</lossTolerant>
+            <penaltyDuration>30 sec</penaltyDuration>
+            <properties>
+              <entry>
+                <key>File Size</key>
+                <value>64B</value>
+              </entry>
+              <entry>
+                <key>Batch Size</key>
+                <value>1</value>
+              </entry>
+              <entry>
+                <key>Data Format</key>
+                <value>Text</value>
+              </entry>
+              <entry>
+                <key>Unique FlowFiles</key>
+                <value>false</value>
+              </entry>
+              <entry>
+                <key>generate-ff-custom-text</key>
+              </entry>
+            </properties>
+            <runDurationMillis>0</runDurationMillis>
+            <schedulingPeriod>360 sec</schedulingPeriod>
+            <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+            <yieldDuration>1 sec</yieldDuration>
+          </config>
+          <name>GenerateFlowFile</name>
+          <relationships>
+            <autoTerminate>false</autoTerminate>
+            <name>success</name>
+          </relationships>
+          <style></style>
+          <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+        </processors>
+      </contents>
+      <name>SonicPi</name>
+    </processGroups>
+  </snippet>
+  <timestamp>12/22/2016 12:18:13 EST</timestamp>
+</template>

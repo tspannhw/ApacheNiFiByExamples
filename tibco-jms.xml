@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<template encoding-version="1.2">
+    <description></description>
+    <groupId>7c84501d-d10c-407c-b9f3-1d80e38fe36a</groupId>
+    <name>Tibco JMS</name>
+    <snippet>
+        <processGroups>
+            <id>d01518c9-a8b5-3e5c-0000-000000000000</id>
+            <parentGroupId>46f95fe5-3024-31d8-0000-000000000000</parentGroupId>
+            <position>
+                <x>0.0</x>
+                <y>0.0</y>
+            </position>
+            <versionedComponentId>d01518c9-a8b5-3e5c-bbdc-c8265ac8715c</versionedComponentId>
+            <comments></comments>
+            <contents>
+                <connections>
+                    <id>97e87e25-be5a-3595-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>97e87e25-be5a-3595-a32e-008c1f3f8413</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <bends>
+                        <x>470.00011394163926</x>
+                        <y>404.01387037627205</y>
+                    </bends>
+                    <destination>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>a0a24aa5-444d-357e-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>a0a24aa5-444d-357e-8760-c7de386eb1ab</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>062a9a64-d2ce-3470-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>062a9a64-d2ce-3470-9e10-b1394cbcbe5a</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>b4ca9d50-5883-3759-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>b4ca9d50-5883-3759-bf5c-eae7059bad6b</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>062a9a64-d2ce-3470-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>062a9a64-d2ce-3470-9e10-b1394cbcbe5a</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>f1f1853e-e240-3149-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>f1f1853e-e240-3149-a56d-d715313934ed</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>cb617a45-1cec-3a4d-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>cb617a45-1cec-3a4d-b491-05b2ac38d286</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>a0a24aa5-444d-357e-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>a0a24aa5-444d-357e-8760-c7de386eb1ab</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>success</selectedRelationships>
+                    <source>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>d9cf92f6-cb97-3c52-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>d9cf92f6-cb97-3c52-a447-59b712843607</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <connections>
+                    <id>551d7652-cdde-3497-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>551d7652-cdde-3497-bb9e-d1c1adfd2be1</versionedComponentId>
+                    <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+                    <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+                    <destination>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>a0a24aa5-444d-357e-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>a0a24aa5-444d-357e-8760-c7de386eb1ab</versionedComponentId>
+                    </destination>
+                    <flowFileExpiration>0 sec</flowFileExpiration>
+                    <labelIndex>1</labelIndex>
+                    <name></name>
+                    <selectedRelationships>failure</selectedRelationships>
+                    <source>
+                        <groupId>d01518c9-a8b5-3e5c-0000-000000000000</groupId>
+                        <id>062a9a64-d2ce-3470-0000-000000000000</id>
+                        <type>PROCESSOR</type>
+                        <versionedComponentId>062a9a64-d2ce-3470-9e10-b1394cbcbe5a</versionedComponentId>
+                    </source>
+                    <zIndex>0</zIndex>
+                </connections>
+                <controllerServices>
+                    <id>15624703-321d-3e60-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <versionedComponentId>15624703-321d-3e60-9387-30ae69f5232e</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-jms-processors-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.5.0.3.1.0.0-564</version>
+                    </bundle>
+                    <comments></comments>
+                    <descriptors>
+                        <entry>
+                            <key>cf</key>
+                            <value>
+<name>cf</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>cflib</key>
+                            <value>
+<name>cflib</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>broker</key>
+                            <value>
+<name>broker</name>
+                            </value>
+                        </entry>
+                        <entry>
+                            <key>SSL Context Service</key>
+                            <value>
+<identifiesControllerService>org.apache.nifi.ssl.SSLContextService</identifiesControllerService>
+<name>SSL Context Service</name>
+                            </value>
+                        </entry>
+                    </descriptors>
+                    <name>JMSConnectionFactoryProvider</name>
+                    <persistsState>false</persistsState>
+                    <properties>
+                        <entry>
+                            <key>cf</key>
+                            <value>com.tibco.tibjms.TibjmsQueueConnectionFactory</value>
+                        </entry>
+                        <entry>
+                            <key>cflib</key>
+                            <value>/opt/tibco/ems/8.4/lib/</value>
+                        </entry>
+                        <entry>
+                            <key>broker</key>
+                            <value>tcp://princeton1.field.hortonworks.com:7222</value>
+                        </entry>
+                        <entry>
+                            <key>SSL Context Service</key>
+                        </entry>
+                    </properties>
+                    <state>ENABLED</state>
+                    <type>org.apache.nifi.jms.cf.JMSConnectionFactoryProvider</type>
+                </controllerServices>
+                <processors>
+                    <id>a0a24aa5-444d-357e-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>494.00011394163926</x>
+                        <y>459.013870376272</y>
+                    </position>
+                    <versionedComponentId>a0a24aa5-444d-357e-8760-c7de386eb1ab</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-update-attribute-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.5.0.3.1.0.0-564</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Delete Attributes Expression</key>
+<value>
+    <name>Delete Attributes Expression</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>
+    <name>Store State</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+<value>
+    <name>Stateful Variables Initial Value</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Delete Attributes Expression</key>
+                            </entry>
+                            <entry>
+<key>Store State</key>
+<value>Do not store state</value>
+                            </entry>
+                            <entry>
+<key>Stateful Variables Initial Value</key>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <name>UpdateAttribute</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+                </processors>
+                <processors>
+                    <id>d9cf92f6-cb97-3c52-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>992.0001139416393</x>
+                        <y>195.013870376272</y>
+                    </position>
+                    <versionedComponentId>d9cf92f6-cb97-3c52-a447-59b712843607</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-jms-processors-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.5.0.3.1.0.0-564</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Connection Factory Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.jms.cf.JMSConnectionFactoryProviderDefinition</identifiesControllerService>
+    <name>Connection Factory Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Destination Name</key>
+<value>
+    <name>Destination Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Destination Type</key>
+<value>
+    <name>Destination Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>User Name</key>
+<value>
+    <name>User Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Connection Client ID</key>
+<value>
+    <name>Connection Client ID</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Session Cache size</key>
+<value>
+    <name>Session Cache size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Acknowledgement Mode</key>
+<value>
+    <name>Acknowledgement Mode</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Durable subscription</key>
+<value>
+    <name>Durable subscription</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Shared subscription</key>
+<value>
+    <name>Shared subscription</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Subscription Name</key>
+<value>
+    <name>Subscription Name</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Connection Factory Service</key>
+<value>15624703-321d-3e60-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>Destination Name</key>
+<value>sample</value>
+                            </entry>
+                            <entry>
+<key>Destination Type</key>
+<value>QUEUE</value>
+                            </entry>
+                            <entry>
+<key>User Name</key>
+<value>admin</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>Connection Client ID</key>
+<value>nifi-jms-tibco-reader</value>
+                            </entry>
+                            <entry>
+<key>Session Cache size</key>
+<value>1</value>
+                            </entry>
+                            <entry>
+<key>Acknowledgement Mode</key>
+<value>2</value>
+                            </entry>
+                            <entry>
+<key>Durable subscription</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Shared subscription</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>Subscription Name</key>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <name>ConsumeJMS</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.jms.processors.ConsumeJMS</type>
+                </processors>
+                <processors>
+                    <id>f1f1853e-e240-3149-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>504.00011394163926</x>
+                        <y>-49.98612986214658</y>
+                    </position>
+                    <versionedComponentId>f1f1853e-e240-3149-a56d-d715313934ed</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-standard-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.5.0.3.1.0.0-564</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>File Size</key>
+<value>
+    <name>File Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>
+    <name>Batch Size</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Data Format</key>
+<value>
+    <name>Data Format</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Unique FlowFiles</key>
+<value>
+    <name>Unique FlowFiles</name>
+</value>
+                            </entry>
+                            <entry>
+<key>generate-ff-custom-text</key>
+<value>
+    <name>generate-ff-custom-text</name>
+</value>
+                            </entry>
+                            <entry>
+<key>character-set</key>
+<value>
+    <name>character-set</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>File Size</key>
+<value>250B</value>
+                            </entry>
+                            <entry>
+<key>Batch Size</key>
+<value>1</value>
+                            </entry>
+                            <entry>
+<key>Data Format</key>
+<value>Text</value>
+                            </entry>
+                            <entry>
+<key>Unique FlowFiles</key>
+<value>false</value>
+                            </entry>
+                            <entry>
+<key>generate-ff-custom-text</key>
+<value>{
+  "top1pct" : "43.1",
+  "top5" : "n09428293 seashore, coast, seacoast, sea-coast",
+  "top4" : "n04371774 swing",
+  "top3" : "n02894605 breakwater, groin, groyne, mole, bulwark, seawall, jetty",
+  "top2" : "n03933933 pier",
+  "top1" : "n03216828 dock, dockage, docking facility",
+  "top2pct" : "34.3",
+  "imagefilename" : "/opt/demo/images/201817121004997.jpg",
+  "top3pct" : "3.8",
+  "uuid" : "mxnet_uuid_img_20180413140808",
+  "top4pct" : "2.7",
+  "top5pct" : "2.4",
+  "runtime" : "1.0"
+}</value>
+                            </entry>
+                            <entry>
+<key>character-set</key>
+<value>UTF-8</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>30 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <name>GenerateFlowFile</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>STOPPED</state>
+                    <style/>
+                    <type>org.apache.nifi.processors.standard.GenerateFlowFile</type>
+                </processors>
+                <processors>
+                    <id>062a9a64-d2ce-3470-0000-000000000000</id>
+                    <parentGroupId>d01518c9-a8b5-3e5c-0000-000000000000</parentGroupId>
+                    <position>
+                        <x>496.00011394163926</x>
+                        <y>219.013870376272</y>
+                    </position>
+                    <versionedComponentId>062a9a64-d2ce-3470-9e10-b1394cbcbe5a</versionedComponentId>
+                    <bundle>
+                        <artifact>nifi-jms-processors-nar</artifact>
+                        <group>org.apache.nifi</group>
+                        <version>1.5.0.3.1.0.0-564</version>
+                    </bundle>
+                    <config>
+                        <bulletinLevel>WARN</bulletinLevel>
+                        <comments></comments>
+                        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+                        <descriptors>
+                            <entry>
+<key>Connection Factory Service</key>
+<value>
+    <identifiesControllerService>org.apache.nifi.jms.cf.JMSConnectionFactoryProviderDefinition</identifiesControllerService>
+    <name>Connection Factory Service</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Destination Name</key>
+<value>
+    <name>Destination Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Destination Type</key>
+<value>
+    <name>Destination Type</name>
+</value>
+                            </entry>
+                            <entry>
+<key>User Name</key>
+<value>
+    <name>User Name</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+<value>
+    <name>Password</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Connection Client ID</key>
+<value>
+    <name>Connection Client ID</name>
+</value>
+                            </entry>
+                            <entry>
+<key>Session Cache size</key>
+<value>
+    <name>Session Cache size</name>
+</value>
+                            </entry>
+                        </descriptors>
+                        <executionNode>ALL</executionNode>
+                        <lossTolerant>false</lossTolerant>
+                        <penaltyDuration>30 sec</penaltyDuration>
+                        <properties>
+                            <entry>
+<key>Connection Factory Service</key>
+<value>15624703-321d-3e60-0000-000000000000</value>
+                            </entry>
+                            <entry>
+<key>Destination Name</key>
+<value>sample</value>
+                            </entry>
+                            <entry>
+<key>Destination Type</key>
+<value>QUEUE</value>
+                            </entry>
+                            <entry>
+<key>User Name</key>
+<value>admin</value>
+                            </entry>
+                            <entry>
+<key>Password</key>
+                            </entry>
+                            <entry>
+<key>Connection Client ID</key>
+<value>nifi-jms-client-tibco</value>
+                            </entry>
+                            <entry>
+<key>Session Cache size</key>
+<value>1</value>
+                            </entry>
+                        </properties>
+                        <runDurationMillis>0</runDurationMillis>
+                        <schedulingPeriod>0 sec</schedulingPeriod>
+                        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+                        <yieldDuration>1 sec</yieldDuration>
+                    </config>
+                    <name>PublishJMS</name>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>failure</name>
+                    </relationships>
+                    <relationships>
+                        <autoTerminate>false</autoTerminate>
+                        <name>success</name>
+                    </relationships>
+                    <state>RUNNING</state>
+                    <style/>
+                    <type>org.apache.nifi.jms.processors.PublishJMS</type>
+                </processors>
+            </contents>
+            <name>Tibco JMS</name>
+            <variables/>
+            <versionControlInformation>
+                <bucketId>e7af1020-1b3f-4a47-808d-c9c89b95c3a6</bucketId>
+                <bucketName>conference</bucketName>
+                <flowDescription>Tibco JMS</flowDescription>
+                <flowId>4bf61498-01ab-4b53-b20d-9e4485e8aa06</flowId>
+                <flowName>Tibco JMS</flowName>
+                <registryId>88310356-0162-1000-ffff-ffffd6832cb0</registryId>
+                <registryName>registry</registryName>
+                <state>UP_TO_DATE</state>
+                <stateExplanation>Flow version is current</stateExplanation>
+                <version>3</version>
+            </versionControlInformation>
+        </processGroups>
+    </snippet>
+    <timestamp>04/15/2018 09:40:31 UTC</timestamp>
+</template>

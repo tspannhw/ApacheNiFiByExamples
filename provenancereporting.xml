@@ -1,0 +1,588 @@
+<?xml version="1.0" ?>
+<template encoding-version="1.1">
+  <description></description>
+  <groupId>f5b05eed-c08e-15e6-0000-00007e905e22</groupId>
+  <name>provenancereporting</name>
+  <snippet>
+    <connections>
+      <id>920c9fe1-33b2-3430-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>2aa1999f-d17f-3235-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>bcee2c88-83d5-32db-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>069daaba-c03e-3f74-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>bcee2c88-83d5-32db-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>41be0154-83df-3efd-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>0a10a037-11b8-3964-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>41be0154-83df-3efd-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>split</selectedRelationships>
+      <source>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>dfd6ffec-7988-3dea-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>3165edce-c09c-3f43-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>dfd6ffec-7988-3dea-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <selectedRelationships>success</selectedRelationships>
+      <source>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>9226efe7-c0d2-38ac-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <connections>
+      <id>52f65dee-6673-3663-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <backPressureDataSizeThreshold>1 GB</backPressureDataSizeThreshold>
+      <backPressureObjectThreshold>10000</backPressureObjectThreshold>
+      <destination>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>9226efe7-c0d2-38ac-0000-000000000000</id>
+        <type>PROCESSOR</type>
+      </destination>
+      <flowFileExpiration>0 sec</flowFileExpiration>
+      <labelIndex>1</labelIndex>
+      <name></name>
+      <source>
+        <groupId>0199d791-af62-3009-0000-000000000000</groupId>
+        <id>2a641d70-ca12-31f8-0000-000000000000</id>
+        <type>INPUT_PORT</type>
+      </source>
+      <zIndex>0</zIndex>
+    </connections>
+    <controllerServices>
+      <id>360b23fc-9949-3ab1-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <bundle>
+        <artifact>nifi-hbase_1_1_2-client-service-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <comments></comments>
+      <descriptors>
+        <entry>
+          <key>Hadoop Configuration Files</key>
+          <value>
+            <name>Hadoop Configuration Files</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Kerberos Principal</key>
+          <value>
+            <name>Kerberos Principal</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Kerberos Keytab</key>
+          <value>
+            <name>Kerberos Keytab</name>
+          </value>
+        </entry>
+        <entry>
+          <key>ZooKeeper Quorum</key>
+          <value>
+            <name>ZooKeeper Quorum</name>
+          </value>
+        </entry>
+        <entry>
+          <key>ZooKeeper Client Port</key>
+          <value>
+            <name>ZooKeeper Client Port</name>
+          </value>
+        </entry>
+        <entry>
+          <key>ZooKeeper ZNode Parent</key>
+          <value>
+            <name>ZooKeeper ZNode Parent</name>
+          </value>
+        </entry>
+        <entry>
+          <key>HBase Client Retries</key>
+          <value>
+            <name>HBase Client Retries</name>
+          </value>
+        </entry>
+        <entry>
+          <key>Phoenix Client JAR Location</key>
+          <value>
+            <name>Phoenix Client JAR Location</name>
+          </value>
+        </entry>
+      </descriptors>
+      <name>HBase_1_1_2_ClientService</name>
+      <persistsState>false</persistsState>
+      <properties>
+        <entry>
+          <key>Hadoop Configuration Files</key>
+          <value>/etc/hbase/conf/hbase-site.xml</value>
+        </entry>
+        <entry>
+          <key>Kerberos Principal</key>
+        </entry>
+        <entry>
+          <key>Kerberos Keytab</key>
+        </entry>
+        <entry>
+          <key>ZooKeeper Quorum</key>
+        </entry>
+        <entry>
+          <key>ZooKeeper Client Port</key>
+        </entry>
+        <entry>
+          <key>ZooKeeper ZNode Parent</key>
+        </entry>
+        <entry>
+          <key>HBase Client Retries</key>
+          <value>2</value>
+        </entry>
+        <entry>
+          <key>Phoenix Client JAR Location</key>
+        </entry>
+      </properties>
+      <state>ENABLED</state>
+      <type>org.apache.nifi.hbase.HBase_1_1_2_ClientService</type>
+    </controllerServices>
+    <inputPorts>
+      <id>2a641d70-ca12-31f8-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>72.57142857142867</x>
+        <y>0.0</y>
+      </position>
+      <comments></comments>
+      <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+      <name>provenanceIn</name>
+      <state>RUNNING</state>
+      <type>INPUT_PORT</type>
+    </inputPorts>
+    <processors>
+      <id>9226efe7-c0d2-38ac-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>14.571428571428669</x>
+        <y>93.0</y>
+      </position>
+      <bundle>
+        <artifact>nifi-update-attribute-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Delete Attributes Expression</key>
+            <value>
+              <name>Delete Attributes Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>
+              <name>Store State</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+            <value>
+              <name>Stateful Variables Initial Value</name>
+            </value>
+          </entry>
+          <entry>
+            <key>from</key>
+            <value>
+              <name>from</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Delete Attributes Expression</key>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>Do not store state</value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+          </entry>
+          <entry>
+            <key>from</key>
+            <value>tim's laptop</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>UpdateAttribute Where</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+    </processors>
+    <processors>
+      <id>bcee2c88-83d5-32db-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>0.0</x>
+        <y>675.5</y>
+      </position>
+      <bundle>
+        <artifact>nifi-update-attribute-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>Delete Attributes Expression</key>
+            <value>
+              <name>Delete Attributes Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>
+              <name>Store State</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+            <value>
+              <name>Stateful Variables Initial Value</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>Delete Attributes Expression</key>
+          </entry>
+          <entry>
+            <key>Store State</key>
+            <value>Do not store state</value>
+          </entry>
+          <entry>
+            <key>Stateful Variables Initial Value</key>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>UpdateAttribute</name>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.attributes.UpdateAttribute</type>
+    </processors>
+    <processors>
+      <id>dfd6ffec-7988-3dea-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>8.0</x>
+        <y>282.5</y>
+      </position>
+      <bundle>
+        <artifact>nifi-standard-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>JsonPath Expression</key>
+            <value>
+              <name>JsonPath Expression</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>
+              <name>Null Value Representation</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>JsonPath Expression</key>
+            <value>$.[*]</value>
+          </entry>
+          <entry>
+            <key>Null Value Representation</key>
+            <value>empty string</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>SplitJson</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>original</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>split</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.processors.standard.SplitJson</type>
+    </processors>
+    <processors>
+      <id>2aa1999f-d17f-3235-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>3.0</x>
+        <y>875.5</y>
+      </position>
+      <bundle>
+        <artifact>nifi-hbase-nar</artifact>
+        <group>org.apache.nifi</group>
+        <version>1.2.0.3.0.0.0-453</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors>
+          <entry>
+            <key>HBase Client Service</key>
+            <value>
+              <identifiesControllerService>org.apache.nifi.hbase.HBaseClientService</identifiesControllerService>
+              <name>HBase Client Service</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>
+              <name>Table Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Row Identifier</key>
+            <value>
+              <name>Row Identifier</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Row Identifier Field Name</key>
+            <value>
+              <name>Row Identifier Field Name</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Row Identifier Encoding Strategy</key>
+            <value>
+              <name>Row Identifier Encoding Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Column Family</key>
+            <value>
+              <name>Column Family</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>
+              <name>Batch Size</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Complex Field Strategy</key>
+            <value>
+              <name>Complex Field Strategy</name>
+            </value>
+          </entry>
+          <entry>
+            <key>Field Encoding Strategy</key>
+            <value>
+              <name>Field Encoding Strategy</name>
+            </value>
+          </entry>
+        </descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties>
+          <entry>
+            <key>HBase Client Service</key>
+            <value>360b23fc-9949-3ab1-0000-000000000000</value>
+          </entry>
+          <entry>
+            <key>Table Name</key>
+            <value>PROVENANCE</value>
+          </entry>
+          <entry>
+            <key>Row Identifier</key>
+          </entry>
+          <entry>
+            <key>Row Identifier Field Name</key>
+            <value>eventId</value>
+          </entry>
+          <entry>
+            <key>Row Identifier Encoding Strategy</key>
+            <value>String</value>
+          </entry>
+          <entry>
+            <key>Column Family</key>
+            <value>event</value>
+          </entry>
+          <entry>
+            <key>Batch Size</key>
+            <value>50</value>
+          </entry>
+          <entry>
+            <key>Complex Field Strategy</key>
+            <value>Text</value>
+          </entry>
+          <entry>
+            <key>Field Encoding Strategy</key>
+            <value>String</value>
+          </entry>
+        </properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>PutHBaseJSON</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>org.apache.nifi.hbase.PutHBaseJSON</type>
+    </processors>
+    <processors>
+      <id>41be0154-83df-3efd-0000-000000000000</id>
+      <parentGroupId>0199d791-af62-3009-0000-000000000000</parentGroupId>
+      <position>
+        <x>2.0</x>
+        <y>475.5</y>
+      </position>
+      <bundle>
+        <artifact>nifi-attributecleaner-nar</artifact>
+        <group>com.dataflowdeveloper</group>
+        <version>1.0</version>
+      </bundle>
+      <config>
+        <bulletinLevel>WARN</bulletinLevel>
+        <comments></comments>
+        <concurrentlySchedulableTaskCount>1</concurrentlySchedulableTaskCount>
+        <descriptors></descriptors>
+        <executionNode>ALL</executionNode>
+        <lossTolerant>false</lossTolerant>
+        <penaltyDuration>30 sec</penaltyDuration>
+        <properties></properties>
+        <runDurationMillis>0</runDurationMillis>
+        <schedulingPeriod>0 sec</schedulingPeriod>
+        <schedulingStrategy>TIMER_DRIVEN</schedulingStrategy>
+        <yieldDuration>1 sec</yieldDuration>
+      </config>
+      <name>AttributeCleanerProcessor</name>
+      <relationships>
+        <autoTerminate>true</autoTerminate>
+        <name>failure</name>
+      </relationships>
+      <relationships>
+        <autoTerminate>false</autoTerminate>
+        <name>success</name>
+      </relationships>
+      <style></style>
+      <type>com.dataflowdeveloper.processors.process.AttributeCleanerProcessor</type>
+    </processors>
+  </snippet>
+  <timestamp>01/28/2018 17:05:06 UTC</timestamp>
+</template>
